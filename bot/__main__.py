@@ -26,6 +26,7 @@ from .modules import authorize, list, cancel_mirror, mirror_status, mirror_leech
                      delete, count, users_settings, search, rss, wayback, speedtest, anilist, imdb, bt_select, mediainfo, hash, \
                      scraper, pictures
 from datetime import datetime
+from bot.helper.ext_utils impoert telegraph_helper
 
 def progress_bar(percentage):
     p_used = config_dict['FINISHED_PROGRESS_STR']
